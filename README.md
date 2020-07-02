@@ -23,6 +23,7 @@
 打开一篇你想下载的小说，在控制台中右键Copy as cURL
 ### 0x02
 ![02](README_img/02.png)
+使用https://curl.trillworks.com
 cURL命令粘贴在左侧 右侧获取cookies = {} 与 headers ={}
 ### 0x03
 ![03](README_img/03.png)
