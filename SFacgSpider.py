@@ -37,23 +37,11 @@ def sf(url):
     import requests
     import os
     cookies = {
-        '_uab_collina': '159350166750631907738536',
-        '48251uvCookieC': '5',
-        '.SFCommunity': 'FAD63E5787F8D1E4F10353AF500DA4E73189E281CCF008E557A853C03971EEA554A3BF164C4A3C3D44B6E715C52F55971AABFF8523AC56349F01D56677EEEC468E363F131FEAFE69D8FDB6D993BAB2CA2AE93FE2E3E2809D0356CAED90037417',
-        'session_PC': '60EE012B203FC9DFECEB7BADE652220F',
-        'UsePCVersion': '1',
+
     }
 
     headers = {
-        'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
-        'Accept-Encoding': 'gzip, deflate',
-        'Upgrade-Insecure-Requests': '1',
-        'Host': 'book.sfacg.com',
-        'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_16) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Safari/605.1.15',
-        'Referer': 'http://book.sfacg.com/Novel/48251/MainIndex/',
-        'Accept-Language': 'en-us',
-        'Connection': 'keep-alive',
-        'Proxy-Connection': 'keep-alive',
+
     }
     html_file=requests.get(url, headers=headers, cookies=cookies)
     html=html_file.text
